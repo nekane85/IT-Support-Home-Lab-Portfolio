@@ -73,10 +73,5 @@ No major issues encountered during installation.
 
 ---
 
-## Documentation Note
-Due to completing the installation prior to documentation, screenshots focus on final configuration and verification rather than step-by-step installation.
-
----
-
 ## Summary
 Successfully installed and configured Active Directory Domain Services and promoted a Windows Server VM to a domain controller in a home lab environment. This setup will be used for practicing common IT support tasks such as user management, password resets, and group administration.
