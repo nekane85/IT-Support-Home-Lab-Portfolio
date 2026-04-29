@@ -1,24 +1,22 @@
 # ServiceNow Incident Lifecycle Practice (Home Lab)
 
 ## Objective
-Practice the full incident lifecycle in ServiceNow by creating, managing, and resolving simulated IT support tickets.
+Practice full incident lifecycle including priority assignment, documentation, and resolution handling.
 
 ---
 
 ## Environment
-- Platform: ServiceNow Personal Developer Instance
-- Access Level: Admin (Platform View)
+- ServiceNow Personal Developer Instance
+- Admin (Platform View)
 
 ---
 
 ## Overview
-In this lab, I simulated real-world IT support scenarios by creating multiple incidents and managing them through the full lifecycle from creation to closure.
+Simulated real-world IT support scenarios by creating and managing incidents from creation to closure using proper help desk workflows.
 
 ---
 
-## Incident Lifecycle Process
-
-### Stages Practiced
+## Incident Lifecycle
 - New
 - In Progress
 - Resolved
@@ -26,50 +24,83 @@ In this lab, I simulated real-world IT support scenarios by creating multiple in
 
 ---
 
-## Resolution Code Usage
+## Priority Usage
+- 2 – High → User blocked from working
+- 3 – Moderate → Standard issue
+- 4 – Low → Minor request or non-urgent
 
-- Solution Provided → Used when issue was fixed
-- User Error → Used when issue was caused by incorrect user action
-- Workaround Provided → Used for temporary fixes
+---
+
+## Resolution Code Usage
+- Solution Provided → Issue fixed
+- User Error → Issue caused by user mistake
+- Workaround Provided → Temporary fix
 
 ---
 
 ## Tickets Created
 
-### Ticket 1 — Account Lockout
+### Account Lockout
+- Priority: High
 - Resolution Code: Solution Provided
 
-### Ticket 2 — Password Reset
+### Password Reset
+- Priority: Moderate
 - Resolution Code: Solution Provided
 
-### Ticket 3 — Outlook Issue
+### Outlook Issue
+- Priority: Moderate
 - Resolution Code: Solution Provided
 
-### Ticket 4 — VPN Access Issue
+### VPN Issue
+- Priority: High
 - Resolution Code: Solution Provided
 
-### Ticket 5 — Software Installation
+### Software Installation
+- Priority: Low
 - Resolution Code: Solution Provided
 
 ---
 
 ## Screenshots
 
+### Incident List (Incident → All)
 ![Incident List](../screenshots/2026-04-29_servicenow_incident-list.png)
+
+---
+
+### New Incident Form (Creating Ticket)
 ![New Incident](../screenshots/2026-04-29_servicenow_new-incident.png)
+
+---
+
+### Incident Detail (Opened Ticket)
+![Incident Detail](../screenshots/2026-04-29_servicenow_incident-detail.png)
+
+---
+
+### Work Notes Added
 ![Work Notes](../screenshots/2026-04-29_servicenow_work-notes-added.png)
-![Resolved](../screenshots/2026-04-29_servicenow_resolved-ticket.png)
-![Closed](../screenshots/2026-04-29_servicenow_closed-ticket.png)
+
+---
+
+### Resolved Ticket (State = Resolved)
+![Resolved Ticket](../screenshots/2026-04-29_servicenow_resolved-ticket.png)
+
+---
+
+### Closed Ticket (Final State)
+![Closed Ticket](../screenshots/2026-04-29_servicenow_closed-ticket.png)
 
 ---
 
 ## What I Learned
-- How IT support teams manage incidents using ticketing systems
-- How to properly document work notes and resolutions
-- How to apply appropriate resolution codes
-- How to simulate real-world troubleshooting workflows
+- How to manage incidents from creation to closure
+- How to assign realistic priority levels based on impact
+- How to properly document work notes and resolution steps
+- How to apply correct resolution codes in ServiceNow
 
 ---
 
 ## Summary
-Practiced complete incident lifecycle management in ServiceNow, including ticket creation, investigation, resolution, and closure, using proper help desk documentation standards.
+Completed full incident lifecycle simulation in ServiceNow, including ticket creation, prioritization, troubleshooting, resolution, and closure using real-world help desk practices.
